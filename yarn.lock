@@ -5985,13 +5985,6 @@ mkdirp@0.3.0:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.3.0.tgz#1bbf5ab1ba827af23575143490426455f481fe1e"
   integrity sha1-G79asbqCevI1dRQ0kEJkVfSB/h4=
 
-mkdirp@^0.5.1:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
-  integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
-  dependencies:
-    minimist "^1.2.5"
-
 mkdirp@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
@@ -6150,15 +6143,14 @@ node-releases@^2.0.1:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.1.tgz#3d1d395f204f1f2f29a54358b9fb678765ad2fc5"
   integrity sha512-CqyzN6z7Q6aMeF/ktcMVTzhAHCEpf8SOarwpzpf8pNBY2k5/oM34UHldUwp8VKI7uxct2HxSRdJjBaZeESzcxA==
 
-node-sass-middleware@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/node-sass-middleware/-/node-sass-middleware-0.11.0.tgz#2ab56124362941102e2cd54d8a1c1cef445afb15"
-  integrity sha1-KrVhJDYpQRAuLNVNihwc70Ra+xU=
+node-sass-middleware@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/node-sass-middleware/-/node-sass-middleware-1.0.1.tgz#cec1ff830cfdd703edeeeac67f0226a22971b771"
+  integrity sha512-zkm02Hv9uxduYnWn+iZACw8rMs5OvvKbhACv0q61JQNefhETHznNWN5uiwdiYdb58zsIYcdJ4szbc6UeAOXodQ==
   dependencies:
-    mkdirp "^0.5.1"
-    node-sass "^4.3.0"
+    node-sass "^7.0.1"
 
-node-sass@^4.3.0, node-sass@^6.0.1:
+node-sass@^6.0.1, node-sass@^7.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-6.0.1.tgz#cad1ccd0ce63e35c7181f545d8b986f3a9a887fe"
   integrity sha512-f+Rbqt92Ful9gX0cGtdYwjTrWAaGURgaK5rZCWOgCNyGWusFYHhbqCCBoFBeat+HKETOU02AyTxNhJV0YZf2jQ==
